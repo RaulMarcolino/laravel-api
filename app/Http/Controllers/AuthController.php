@@ -12,7 +12,7 @@ class AuthController extends Controller
 
         if(User::where('email', $request->email)->exists()){
             return response()->json([
-                "message" => "Ja existe uma conta com esse email cadastrado!"
+                "message" => "Email ja cadastrado!"
             ], 400);
         };
 
