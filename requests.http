@@ -3,6 +3,8 @@ Content-Type: "application/json"
 
 {
     "name": "CJ Colmeia",
-    "email": "cjgarantia@gmail.com",
+    "email": "cjdabahia@gmail.com",
+    "telephone": "123456789",
+    "type": "driver",
     "password": "12345678"
 }
