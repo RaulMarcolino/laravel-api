@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Http\Request;
-use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Models\User;
 
-Route::get('/user', function (Request $request) {
-    return response()->json([
+Route::get('/', function (Request $request) {
+    return response()->json(data: [
         'message' => 'API is working'
     ]);
 });

@@ -3,8 +3,12 @@ Content-Type: "application/json"
 
 {
     "name": "CJ Colmeia",
-    "email": "cjdabahia@gmail.com",
+    "email": "cjcearense@gmail.com",
     "telephone": "123456789",
     "type": "driver",
-    "password": "12345678"
+    "password": "12345678",
+    "brand": "Ford",
+    "model": "Fiesta",
+    "year": 2020,
+    "plate": "ABC1234",
 }
